@@ -1,0 +1,55 @@
+/*Estilos da página index.html*/
+
+.center {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    text-align: right;
+    padding: 8px;
+}
+
+.imagem {
+    border-radius: 50%;
+}
+
+.conteudo {
+    padding: 30px;
+    font-size: 20px;
+}
+
+/*Estilos da página contatos.html*/
+
+.subtitulo {
+    font-size: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.rede-social {
+    width: 40px;
+    height: 40px;
+    padding: 50px;
+}
+
+.rodape {
+    padding-top: 66px;
+}
