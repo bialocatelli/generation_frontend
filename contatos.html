@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Contatos</title>
+    </head>
+
+    <body class="center">
+        <h1 class="titulo">Meus contatos</h1>
+        <h2 class="subtitulo">Entre em contato comigo!</h2>
+
+        <form class="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" onkeyup='validaNome()'>
+            <div id="txtNome"></div>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" onkeyup='validaEmail()'>
+            <div id="txtEmail"></div>
+            <br>
+            <label for="assunto">Assunto:</label>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup='validaAssunto()'></textarea>
+            <div id="txtAssunto"></div>
+            <br>
+            <button onclick='enviar()'>Enviar</button>
+        </form>
+
+
+        <footer class="center">
+            <div class="container">
+                <a href="https://www.linkedin.com/in/beatriz-gon%C3%A7alves-locatelli-b01759209/" target="_blank">
+                    <img class="rede-social" src="assets/LinkedIn-símbolo.jpg" alt="logo do linkedin" onmousemove="lZoom()" onmouseout="lNormal()" id="linkedin">
+                </a>
+                <a href="https://github.com/bialocatelli" target="_blank">
+                    <img class="rede-social" src="assets/github logo.png" alt="logo do github" onmousemove="gZoom()" onmouseout="gNormal()" id="github">
+                </a>
+                <a href="mailto:beatrizglocatelli@gmail.com" target="_blank">
+                    <img class="rede-social" src="assets/gmail logo.png" alt="logo do email" onmousemove="eZoom()" onmouseout="eNormal()" id="emailImg">
+                </a>
+            </div>
+
+            <p class="rodape">Beatriz Gonçalves Locatelli &copy</p>
+        </footer>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
